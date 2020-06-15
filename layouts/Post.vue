@@ -44,8 +44,8 @@ itemtype="https://schema.org/BlogPosting"
 
 <div class="row justify-content-center">
   <div class="col-md-9">
-    <Newsletter v-if="$service.email.enabled" />
-    <Comment />
+    <!-- <Newsletter v-if="$service.email.enabled" />
+    <Comment /> -->
   </div>
 </div>
 
