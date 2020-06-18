@@ -35,11 +35,6 @@
     "start": "yarn dev",
     "test": "jest"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.{js,vue}": [
       "eslint --fix",
